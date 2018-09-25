@@ -1,0 +1,26 @@
+{
+    "name"         : "node-red-contrib-audio-volume",
+    "version"      : "1.0.0",
+    "description"  : "A Node Red node for analyzing PCM audio streams",
+    "dependencies": {
+        "audio-gain": "1.1.2"
+    },
+    "author": {
+        "name": "Bart Butenaers"
+    },
+    "license": "Apache-2.0",
+    "keywords": [ "node-red", "pcm", "audio", "sound", "gain", "volume", "amplitude", "amplify", "amplifier" ],
+    "bugs": {
+        "url": "https://github.com/bartbutenaers/node-red-contrib-audio-volume/issues"
+    },
+    "homepage": "https://github.com/bartbutenaers/node-red-contrib-audio-volume",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bartbutenaers/node-red-contrib-audio-volume.git"
+    },
+    "node-red"     : {
+        "nodes": {
+            "audio-volume": "audio_volume.js"
+        }
+    }
+}
